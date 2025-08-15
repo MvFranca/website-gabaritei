@@ -69,7 +69,7 @@ export const subjects = [
   {
     id: 4,
     name: "Química",
-    icon: "Flask",
+    icon: "Beaker",
     color: "from-purple-500 to-pink-600",
     progress: 71,
     description: "Orgânica, Inorgânica, Físico-química",
