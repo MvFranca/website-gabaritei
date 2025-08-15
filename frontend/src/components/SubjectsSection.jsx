@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calculator, BookOpen, Zap, Flask, Leaf, Clock, ChevronRight, Star, Lock } from 'lucide-react';
+import { Calculator, BookOpen, Zap, Beaker, Leaf, Clock, ChevronRight, Star, Lock } from 'lucide-react';
 import { subjects } from './mock';
 
 const iconMap = {
