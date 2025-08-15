@@ -28,13 +28,13 @@ const SubjectsSection = () => {
     <section className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-64 h-64 bg-[#407BFF] rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#00D7DB] rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#407BFF] to-[#00D7DB] mb-6">
             Domine Todas as Matérias
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
@@ -104,13 +104,13 @@ const SubjectsSection = () => {
                   {/* Stats */}
                   <div className="relative z-10 grid grid-cols-2 gap-4 mb-4">
                     <div className="bg-slate-700/50 rounded-lg p-3">
-                      <div className="text-lg font-bold text-blue-400">
+                      <div className="text-lg font-bold text-[#407BFF]">
                         {subject.completedQuestions.toLocaleString()}
                       </div>
                       <div className="text-xs text-slate-400">Resolvidas</div>
                     </div>
                     <div className="bg-slate-700/50 rounded-lg p-3">
-                      <div className="text-lg font-bold text-purple-400">
+                      <div className="text-lg font-bold text-[#00D7DB]">
                         {subject.totalQuestions.toLocaleString()}
                       </div>
                       <div className="text-xs text-slate-400">Total</div>
@@ -137,7 +137,7 @@ const SubjectsSection = () => {
                       <Star
                         key={i}
                         size={16}
-                        className={`absolute text-yellow-400 animate-ping`}
+                        className={`absolute text-[#00D7DB] animate-ping`}
                         style={{
                           top: `${Math.random() * 100}%`,
                           left: `${Math.random() * 100}%`,
@@ -156,9 +156,9 @@ const SubjectsSection = () => {
         {/* Coming soon teaser */}
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-3 bg-slate-800 rounded-full px-6 py-3 border border-slate-600">
-            <Lock size={20} className="text-yellow-400" />
+            <Lock size={20} className="text-[#00D7DB]" />
             <span className="text-slate-300">
-              <span className="text-yellow-400 font-bold">+12 matérias</span> chegando em breve!
+              <span className="text-[#00D7DB] font-bold">+12 matérias</span> chegando em breve!
             </span>
           </div>
         </div>

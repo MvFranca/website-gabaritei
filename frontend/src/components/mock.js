@@ -40,7 +40,7 @@ export const subjects = [
     id: 1,
     name: "Matemática",
     icon: "Calculator",
-    color: "from-blue-500 to-purple-600",
+    color: "from-[#407BFF] to-[#00D7DB]",
     progress: 75,
     description: "Álgebra, Geometria, Funções e mais",
     totalQuestions: 2847,
@@ -50,7 +50,7 @@ export const subjects = [
     id: 2,
     name: "Português",
     icon: "BookOpen",
-    color: "from-green-500 to-blue-600",
+    color: "from-[#00D7DB] to-[#407BFF]",
     progress: 82,
     description: "Gramática, Literatura, Redação",
     totalQuestions: 1923,
@@ -60,7 +60,7 @@ export const subjects = [
     id: 3,
     name: "Física",
     icon: "Zap",
-    color: "from-yellow-500 to-red-600",
+    color: "from-[#407BFF] to-[#00D7DB]",
     progress: 68,
     description: "Mecânica, Termodinâmica, Óptica",
     totalQuestions: 1654,
@@ -70,7 +70,7 @@ export const subjects = [
     id: 4,
     name: "Química",
     icon: "Beaker",
-    color: "from-purple-500 to-pink-600",
+    color: "from-[#00D7DB] to-[#407BFF]",
     progress: 71,
     description: "Orgânica, Inorgânica, Físico-química",
     totalQuestions: 1432,
@@ -80,7 +80,7 @@ export const subjects = [
     id: 5,
     name: "Biologia",
     icon: "Leaf",
-    color: "from-green-400 to-emerald-600",
+    color: "from-[#407BFF] to-[#00D7DB]",
     progress: 79,
     description: "Citologia, Genética, Ecologia",
     totalQuestions: 1876,
@@ -90,7 +90,7 @@ export const subjects = [
     id: 6,
     name: "História",
     icon: "Clock",
-    color: "from-amber-500 to-orange-600",
+    color: "from-[#00D7DB] to-[#407BFF]",
     progress: 85,
     description: "Brasil, Mundo, Contemporânea",
     totalQuestions: 1234,
@@ -183,11 +183,11 @@ export const studyPlan = {
 };
 
 export const leaderboard = [
-  { position: 1, name: "Ana Silva", points: 2847, avatar: "https://cdn.pixabay.com/photo/2024/04/17/15/03/girl-8702278_1280.png" },
-  { position: 2, name: "Carlos Santos", points: 2651, avatar: "https://cdn.pixabay.com/photo/2024/10/01/06/53/boy-9087310_640.png" },
-  { position: 3, name: "Você", points: 2234, avatar: "https://cdn.pixabay.com/photo/2022/09/14/01/42/girl-7453178_640.png" },
-  { position: 4, name: "Beatriz Lima", points: 2187, avatar: "https://cdn.pixabay.com/photo/2024/04/20/14/40/ai-generated-8708710_640.jpg" },
-  { position: 5, name: "Diego Costa", points: 2098, avatar: "https://cdn.pixabay.com/photo/2021/05/15/11/00/girl-6255532_640.jpg" }
+  { position: 1, name: "Ana Silva", points: 2847, avatar: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/5aj2l6on_Minha_imagem_do_ChatGPT-removebg-preview.png" },
+  { position: 2, name: "Carlos Santos", points: 2651, avatar: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/2zblq7sg_Group.png" },
+  { position: 3, name: "Você", points: 2234, avatar: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/hockfd8r_7191139_3568950%201%282%29.png" },
+  { position: 4, name: "Beatriz Lima", points: 2187, avatar: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/5gyidks9_7010858_3254895%201%281%29.png" },
+  { position: 5, name: "Diego Costa", points: 2098, avatar: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/5aj2l6on_Minha_imagem_do_ChatGPT-removebg-preview.png" }
 ];
 
 export const examStats = {
