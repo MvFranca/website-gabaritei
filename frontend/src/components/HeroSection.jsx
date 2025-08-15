@@ -87,36 +87,6 @@ const HeroSection = () => {
         ))}
       </div>
 
-      {/* Animated characters */}
-      <div className="absolute inset-0">
-        {heroCharacters.map((character, index) => (
-          <div
-            key={character.id}
-            className="absolute animate-bounce transition-all duration-500 hover:scale-110"
-            style={{
-              left: `${character.position.x}%`,
-              top: `${character.position.y}%`,
-              animationDelay: `${index * 0.5}s`,
-              animationDuration: '4s'
-            }}
-          >
-            <div className="relative group">
-              <img
-                src={character.image}
-                alt={character.name}
-                className="w-28 h-28 rounded-full border-4 border-[#407BFF] shadow-2xl hover:border-[#00D7DB] transition-all duration-300 hover:shadow-[#00D7DB]/50"
-              />
-              {/* Character tooltip */}
-              <div className="absolute -top-18 left-1/2 transform -translate-x-1/2 bg-slate-800/90 backdrop-blur-sm text-white px-4 py-3 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10 border border-[#407BFF]/30">
-                <div className="text-sm font-bold">{character.name}</div>
-                <div className="text-xs text-[#00D7DB]">{character.subject} - Nível {character.level}</div>
-                <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-slate-800"></div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
       {/* Logo and main content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4">
         <div className="mb-8 animate-fade-in">
