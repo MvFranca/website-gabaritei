@@ -147,14 +147,14 @@ const ChatSection = () => {
 
             {/* Message input */}
             <div className="p-6 border-t border-slate-700">
-              <div className="flex gap-4">
+              <div className="flex flex-col gap-2 sm:flex-row sm:gap-4">
                 <div className="flex-1 relative">
                   <textarea
                     value={newMessage}
                     onChange={(e) => setNewMessage(e.target.value)}
                     onKeyPress={handleKeyPress}
                     placeholder="Digite sua dúvida aqui..."
-                    className="w-full bg-slate-700 text-white rounded-xl px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+                    className="w-full h-full flex justify-center items-center bg-slate-700 text-white rounded-xl px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
                     rows="1"
                   />
                   <MessageCircle size={20} className="absolute right-3 top-3 text-slate-400" />
@@ -162,7 +162,7 @@ const ChatSection = () => {
                 <button
                   onClick={handleSendMessage}
                   disabled={!newMessage.trim()}
-                  className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-xl px-6 py-3 font-bold transition-all duration-300 hover:scale-105 flex items-center gap-2"
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-xl px-6 py-3 font-bold transition-all duration-300 hover:scale-105 flex items-center gap-2 justify-center sm:justify-start"
                 >
                   <Send size={20} />
                   Enviar

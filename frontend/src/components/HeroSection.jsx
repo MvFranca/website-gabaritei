@@ -88,10 +88,15 @@ const HeroSection = () => {
       </div>
 
       {/* Logo and main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 py-4">
         <div className="mb-8 animate-fade-in">
-          <img 
+          {/* <img 
             src="https://customer-assets.emergentagent.com/job_1f2c4d1a-7284-40fb-a049-8c85f3387131/artifacts/dwv19t5e_gradiente.png"
+            alt="Gabaritei Logo"
+            className="w-72 h-36 object-contain mx-auto mb-6 hover:scale-105 transition-transform duration-300 drop-shadow-2xl"
+          /> */}
+          <img 
+            src="./favicon.png"
             alt="Gabaritei Logo"
             className="w-72 h-36 object-contain mx-auto mb-6 hover:scale-105 transition-transform duration-300 drop-shadow-2xl"
           />
@@ -151,11 +156,11 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-[#00D7DB] rounded-full flex justify-center">
           <div className="w-1 h-3 bg-[#00D7DB] rounded-full mt-2 animate-pulse"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

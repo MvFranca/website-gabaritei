@@ -60,9 +60,9 @@ const GameSection = () => {
         </div>
 
         {/* Tabs */}
-        <div className="flex justify-center mb-12">
-          <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-2 border border-slate-700">
-            <div className="flex gap-2">
+        <div className="flex justify-start sm:justify-center mb-12">
+          <div className="max-w-max bg-slate-800/50 backdrop-blur-sm rounded-2xl p-2 border border-slate-700 overflow-x-scroll">
+            <div className="flex gap-2 min-w-[534px]">
               {[
                 { id: 'achievements', label: 'Conquistas', icon: Trophy },
                 { id: 'leaderboard', label: 'Ranking', icon: Crown },
