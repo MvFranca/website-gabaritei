@@ -4,7 +4,7 @@ export const heroCharacters = [
   {
     id: 1,
     name: "Ana",
-    image: "https://cdn.pixabay.com/photo/2024/04/17/15/03/girl-8702278_1280.png",
+    image: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/5aj2l6on_Minha_imagem_do_ChatGPT-removebg-preview.png",
     subject: "Matemática",
     level: 95,
     position: { x: 15, y: 20 }
@@ -12,7 +12,7 @@ export const heroCharacters = [
   {
     id: 2,
     name: "Carlos",
-    image: "https://cdn.pixabay.com/photo/2024/10/01/06/53/boy-9087310_640.png", 
+    image: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/2zblq7sg_Group.png", 
     subject: "Física",
     level: 87,
     position: { x: 70, y: 35 }
@@ -20,7 +20,7 @@ export const heroCharacters = [
   {
     id: 3,
     name: "Beatriz",
-    image: "https://cdn.pixabay.com/photo/2022/09/14/01/42/girl-7453178_640.png",
+    image: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/hockfd8r_7191139_3568950%201%282%29.png",
     subject: "Português",
     level: 92,
     position: { x: 40, y: 60 }
@@ -28,7 +28,7 @@ export const heroCharacters = [
   {
     id: 4,
     name: "Diego",
-    image: "https://cdn.pixabay.com/photo/2024/04/20/14/40/ai-generated-8708710_640.jpg",
+    image: "https://customer-assets.emergentagent.com/job_gabaritei-app/artifacts/5gyidks9_7010858_3254895%201%281%29.png",
     subject: "Química",
     level: 89,
     position: { x: 80, y: 15 }
