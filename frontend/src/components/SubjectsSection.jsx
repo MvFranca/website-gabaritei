@@ -6,7 +6,7 @@ const iconMap = {
   Calculator,
   BookOpen,
   Zap,
-  Flask,
+  Beaker,
   Leaf,
   Clock
 };
